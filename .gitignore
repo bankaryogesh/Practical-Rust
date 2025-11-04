@@ -1,0 +1,21 @@
+# Rust .gitignore
+
+# ---- Rust / Cargo ----
+target/
+**/target/
+Cargo.lock
+
+# ---- IDE / Editor Files ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Backup / Temporary Files ----
+*.log
+*.tmp
+*.bak
